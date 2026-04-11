@@ -1,0 +1,28 @@
+GET http://localhost:5172/
+
+###
+GET http://localhost:5172/games/6
+
+###
+POST http://localhost:5172/games
+Content-Type: application/json
+
+{
+    "name": "The  of us",
+    "genre": "Actihhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhon",
+    "price": 500,
+    "releaseDate": "2023-09-15"
+}
+###
+PUT http://localhost:5172/games/7
+Content-Type: application/json
+
+{
+    "name": "The last of us",
+    "genre": "Action",
+    "price": 59.99,
+    "releaseDate": "2023-09-15"
+}
+###
+DELETE http://localhost:5172/games/2
+
