@@ -1,7 +1,5 @@
-using System;
-using GameStore.Api.Models;
+ using GameStore.Api.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Net.Http.Headers;
 
 namespace GameStore.Api.Data;
 
